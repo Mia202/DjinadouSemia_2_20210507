@@ -7,6 +7,12 @@ html,
      margin: 0;
      padding: 0;
 }
+.container {
+     max-width: 1350px;
+     margin: auto;
+     display: flex;
+     flex-direction: column;
+}
      h1 {
           font-size: large;
  }
@@ -16,24 +22,7 @@ html,
  h3 {
       font-size: bolt;
  }
-
- /* PARAMETRES DE LA PAGE */
- #blocpage {
-      margin: auto;
-      width: 98%;
- }
- /* PARAMETRES DU HEADER */
-
- /* le conteneur */
-    .containerheader {
-     display: flex;
-     flex-direction: row; 
-     justify-content: space-between;
-     align-items: center;
-     padding: 40px 0px;
-     
-}
- .headerlink {
+.headerlink {
       padding: top 30px;
  }
  /* navigation */
@@ -110,68 +99,6 @@ html,
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- .Logohaut {
-      cursor: pointer;
-     
- }
- header ul {
-      display: flex;
-      list-style: none;
-      padding: 0px;
-      margin: 0px;
-      margin-left: auto;
-      color: #0065fc;
-      font-weight: bold;
-}
- header ul li a:hover {
-      border-top: 2px solid #0065fc;
-      padding-top: 21px;
-      color: #0065fc;
- }
-
-header ul li {
-     margin-left: 28px;
-}
-a {
-     text-decoration: none;
-}
-     
- /*le texte d'accroche */
- .subtext {
-      margin-top: auto;  
- }
  
 /* formulaire de recherche */
 .logosearch {
